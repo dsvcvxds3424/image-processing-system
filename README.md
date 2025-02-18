@@ -14,14 +14,14 @@ To solve this assignment, we need to build a system that efficiently processes i
        source venv/bin/activate  # On Windows: venv\Scripts\activate
     '''
 3. Install dependencies
-    '''
+    sh'''
        pip install flask celery sqlalchemy flask-sqlalchemy pillow requests redis
     '''
 4. Start Redis:
 
-  - Install Redis: https://redis.io/download
-  
-  - Run Redis: redis-server
+      - Install Redis: https://redis.io/download
+      
+      - Run Redis: redis-server
 
 
 ## Run the Project
