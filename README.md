@@ -47,7 +47,7 @@ To solve this assignment, we need to build a system that efficiently processes i
       - Send a POST request to http://localhost:5000/upload with a CSV file.
       - Example CSV:
         
-            ![image](migrations/screenshot2.png)
+        ![image](migrations/screenshot2.png)
 
 2. Check Status:
 
