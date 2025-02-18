@@ -38,7 +38,7 @@ To solve this assignment, we need to build a system that efficiently processes i
     ```
 3. Test the APIs:
 
-       - Use Postman or curl to test the /upload and /status endpoints.
+   -Use Postman or curl to test the /upload and /status endpoints.
 
 
 ## Test with Postman
