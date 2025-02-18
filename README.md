@@ -10,14 +10,14 @@ To solve this assignment, we need to build a system that efficiently processes i
 
 1. Install Python
 2. Create a virtual environment
-    '''bash
+    ```bash
        python -m venv venv
        source venv/bin/activate  # On Windows: venv\Scripts\activate
-    '''
+    ```
 4. Install dependencies
-    '''bash
+    ```bash
        pip install flask celery sqlalchemy flask-sqlalchemy pillow requests redis
-    '''
+    ```
 5. Start Redis:
 
       - Install Redis: https://redis.io/download
