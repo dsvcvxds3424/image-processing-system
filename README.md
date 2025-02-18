@@ -28,17 +28,17 @@ To solve this assignment, we need to build a system that efficiently processes i
 ## Run the Project
 
 1. Run the Flask app:
-    '''
+    ```bash
        python run.py
-    '''
+    ```
 
 2. Run the Celery worker:
-    '''
+    ```bash
        celery -A celery_worker.celery worker --loglevel=info
-    '''
-
+    ```
 3. Test the APIs:
-    - Use Postman or curl to test the /upload and /status endpoints.
+
+       - Use Postman or curl to test the /upload and /status endpoints.
 
 
 ## Test with Postman
