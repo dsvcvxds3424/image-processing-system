@@ -44,10 +44,11 @@ To solve this assignment, we need to build a system that efficiently processes i
 ## Test with Postman
 
 1. Upload CSV:
-  - Send a POST request to http://localhost:5000/upload with a CSV file.
-  - Example CSV:
-![image](migrations/screenshot2.png)
+      - Send a POST request to http://localhost:5000/upload with a CSV file.
+      - Example CSV:
+        ![image](migrations/screenshot2.png)
 
 2. Check Status:
-  - Send a GET request to http://localhost:5000/status?request_id=<request_id>
+
+      - Send a GET request to http://localhost:5000/status?request_id=<request_id>
 
